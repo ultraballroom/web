@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UltraBall — Football Culture & Jersey</title>
+<link rel="icon" href="assets/logo-red.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="data.js"></script>
+</head>
+<body>
+<div class="hero"><div class="wrap">
+  <span class="kicker gold">Football Culture</span>
+  <h1>Setiap jersey<br>punya <span>cerita.</span></h1>
+  <p class="lead">Koleksi, review, dan jersey pilihan dari UltraBall — untuk kamu yang melihat sepak bola lewat kain dan sponsor di dada.</p>
+  <a class="btn" href="jual.html">Lihat Ready Stock</a><a class="btn ghost" href="koleksi.html">Masuk The Vault</a>
+</div></div>
+<section><div class="wrap">
+  <div class="pillars">
+    <a class="pillar" href="koleksi.html"><h3>The Vault</h3><p>Koleksi pribadi match worn & issued AC Milan era 90-an.</p></a>
+    <a class="pillar" href="review.html"><h3>Review</h3><p>Bedah desain, sejarah, dan detail jersey.</p></a>
+    <a class="pillar" href="jual.html"><h3>Ready Stock</h3><p>Jersey pilihan yang siap pindah tangan.</p></a>
+  </div>
+</div></section>
+<section style="padding-top:0"><div class="wrap">
+  <span class="kicker maroon">The Vault</span><h2>Dari lemari koleksi</h2>
+  <div class="grid" id="koleksi"></div>
+  <a class="btn" href="koleksi.html">Lihat semua koleksi →</a>
+</div></section>
+<script src="app.js"></script>
+<script>renderKoleksi(document.getElementById("koleksi"),4)</script>
+</body>
+</html>
